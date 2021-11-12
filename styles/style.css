@@ -52,6 +52,8 @@
   left: 64px;
   z-index: 3;
   padding: 0;
+  margin: 0;
+
 }
 
 .header__link {
@@ -147,6 +149,7 @@
   font-size: 60px;
   line-height: 1.15em;
   text-align: center;
+  width: 60%;
 }
 
 .section-subtitle {
@@ -156,6 +159,7 @@
   font-size: 24px;
   line-height: 34px;
   text-align: center;
+  width: 60%;
 }
 
 .table {
@@ -205,7 +209,7 @@
   padding: 0;
 }
 
-.feyuman__title {
+.feynman__title {
   width: 648px;
   line-height: 1.15;
   font-size: 120px;
@@ -216,7 +220,7 @@
   padding: 0;
 }
 
-.feyuman__subtitle {
+.feynman__subtitle {
   margin: 0;
   padding: 0;
   line-height: 1.15;
@@ -251,12 +255,14 @@
   color: white;
   width: 60%;
   text-align: center;
+  z-index: 1;
 }
 
 .section-subtitle_theme_dark {
   color:white;
   width: 60%;
   text-align: center;
+  z-index: 1;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -344,7 +350,7 @@
   padding: 0;
 }
 
-.footer__colum-links {
+.footer__column-links {
   margin: 0 0 16px 0;
   display: flex;
   flex-direction: column;
@@ -358,7 +364,7 @@
   padding: 0;
 }
 
-.footer__colum-link {
+.footer__column-link {
   text-decoration: none;
   font-size: 18px;
   line-height: 30px;
