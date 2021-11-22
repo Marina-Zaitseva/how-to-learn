@@ -1,0 +1,12 @@
+@import url(../../rotation/rotation.css);
+
+.header__squre-pic {
+  width: 568px;
+  height: 568px;
+  background: #2f80ed;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  z-index: 1;
+  animation: rotation 20s linear infinite;
+}
