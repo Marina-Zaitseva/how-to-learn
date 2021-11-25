@@ -1,5 +1,9 @@
 .logo {
   width: 183px;
-  height: 32px;
   background-image: url(../../images/logo_place_header.svg); 
+  transition: opacity 0.5s ease-in;
+}
+
+.logo:hover {
+  opacity: 0.5;
 }
